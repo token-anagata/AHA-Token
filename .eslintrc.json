@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "mocha": true
+    },
+    "extends": [
+        "standard",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-console": ["warn", { "allow": ["warn", "error"] }],
+        "max-len": ["error", { "code": 80 }, { "ignoreComments": true }]
+    }
+}
